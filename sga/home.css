@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #e3e5ff;
+}
+
+header {
+    background-color: #54c6cb;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(67, 0, 129);
+}
+    
+    #affirmation {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    #sleep {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    #sleep:hover{
+        color: rgb(67, 0, 129);
+        }
+
+    #stress {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    #social {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    #social:hover{
+        color: rgb(67, 0, 129);
+    }
+
+    #reduce {
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    #affirmation:hover{
+        color: rgb(67, 0, 129);
+        }
+        
+
+        #stress:hover{
+            color: rgb(67, 0, 129);
+            }
+
+            #reduce:hover{
+                color: rgb(67, 0, 129);
+                }
+
+                .main {
+                    width: 100%;
+                    min-height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content:flex-end;
+                    background: url('pmp.png') no-repeat;
+                    background-size: cover;
+                    background-position: left;
+                    padding-right: 350px;
+                background-attachment: fixed;
+                }
+                
+                .main h2{
+                    margin-right: auto;
+                 color: rgb(4, 3, 66);
+                 font-size: 1.4em;
+                 font-weight: 500;
+                }
+                
+                .main h2 span {
+                    margin-right: auto;
+                display: inline-block;
+                margin-bottom: 30px;
+                color: rgb(4, 3, 66);
+                font-size: 2em;
+                font-weight: 600;
+                }
+
+                .mainbtn {
+                    margin-right: auto;
+                    color: #000000;
+                    background-color: #ffffff;
+                    text-decoration: none;
+                    font-size: 1.1em;
+                    font-weight: 600;
+                    display: inline-block;
+                    padding: 0.9375em 2.1875em;
+                    letter-spacing: 1px;
+                    border-radius: 15px;
+                    margin-bottom: 40px;
+                    transition: 0.7s ease;
+                }
+                .mainbtn:hover {
+                    background-color: #96a5b9;
+                    transform: scale(1.1);
+                }
+
+                .mainbtn.clicked {
+                    transform: scale(1.2);
+                    transition: transform 0.5s ease;
+                }
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
